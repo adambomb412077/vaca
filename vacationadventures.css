@@ -2,6 +2,7 @@ body{
 	margin: 0 auto;
 	width: 80%;
 	background:#aaaaaa;
+	font-family: Helvetica;
 }
 
 /* Header */
@@ -34,6 +35,9 @@ IMG.displayed {
 
 nav{
 	background-color: #98bf21;
+	width: 672px;
+	margin: 0 auto;
+	margin-top: absolute;
 }
 
 ul{
@@ -49,7 +53,7 @@ li{
 		
 a:link,a:visited{
 	display:block;
-	width:120px;
+	width:160px;
 	font-weight:bold;
 	color:#FFFFFF;
 	background-color:#98bf21;
@@ -62,9 +66,22 @@ a:link,a:visited{
 a:hover,a:active{
 	background-color:#7A991A;
 }
+#contentBox {
+	width: 901.593px;
+	margin: 0 auto;
+	margin-top: absolute;
+}
+#column1{
+	text-align: center;
+}
+#column2{
+	text-align: center;
+}
+#column3{
+	text-align: center;
+}
 
 /* Nav CSS End */
-
 
 
 /* Contact Page */
