@@ -70,6 +70,7 @@ a:hover,a:active{
 	width: 901.593px;
 	margin: 0 auto;
 	margin-top: absolute;
+	color:#FFFFFF;
 }
 #column1{
 	text-align: center;
@@ -152,16 +153,16 @@ iframe{
 
 /* Footer */
 
-footer{
-	height: 50px; 
-	width: 100%;
-	background-color: #98bf21;
-}
+#footer {
+margin: 0px auto;
+width: 850px;
 
-.copyright{
-	float:left;
-	width:250px;
-	padding: 20px 25px;
+}    
+#footer .copyright {
+float: right;
+padding: 30px 0;
+width: 425px;
+text-align: center;
 }
 
 .date_display{
